@@ -1,0 +1,165 @@
+.volunteer-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+}
+
+.volunteer-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.volunteer-title {
+  text-align: center;
+  color: #2C3E50;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.volunteer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background: none;
+}
+
+.volunteer-info {
+  padding-right: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.volunteer-info h2 {
+  color: #34495E;
+  margin-bottom: 1rem;
+}
+
+.volunteer-info p {
+  color: #7F8C8D;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.volunteer-benefits,
+.volunteer-areas {
+  margin-bottom: 2rem;
+}
+
+.volunteer-benefits h3,
+.volunteer-areas h3 {
+  color: #34495E;
+  margin-bottom: 1rem;
+}
+
+.volunteer-benefits ul,
+.volunteer-areas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.volunteer-benefits li,
+.volunteer-areas li {
+  color: #7F8C8D;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.volunteer-benefits li:before,
+.volunteer-areas li:before {
+  content: "•";
+  color: #3498DB;
+  position: absolute;
+  left: 0;
+}
+
+.volunteer-form-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-form-container h2 {
+  color: #34495E;
+  margin-bottom: 1.5rem;
+}
+
+.volunteer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  color: #34495E;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.8rem;
+  border: 1px solid #BDC3C7;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: white;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3498DB;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-button {
+  background-color: #3498DB;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #2980B9;
+}
+
+@media (max-width: 768px) {
+  .volunteer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .volunteer-info {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+  .volunteer-main {
+    padding: 1rem;
+  }
+} 
