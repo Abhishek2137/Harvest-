@@ -10,8 +10,8 @@ const Volunteer = () => {
   return (
     <div className="volunteer-container">
       <Helmet>
-        <title>Volunteer - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Volunteer - Raje Shivchatrapati Institute" />
+        <title>Volunteer - HĀRVÉST</title>
+        <meta property="og:title" content="Volunteer - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="volunteer-main">

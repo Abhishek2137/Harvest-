@@ -1,0 +1,140 @@
+.faq-manager {
+  padding: 20px;
+}
+
+.faq-manager h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faq-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.faq-form button {
+  padding: 10px 20px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.faq-form button[type="button"] {
+  background-color: #999;
+}
+
+.faqs-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faqs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.faq-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.faq-header h3 {
+  margin: 0;
+  color: #333;
+  flex: 1;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status.active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.inactive {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.faq-answer {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.faq-meta {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #999;
+}
+
+.faq-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.faq-actions button {
+  padding: 8px 15px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.faq-actions .delete-btn {
+  background-color: #e74c3c;
+}
+

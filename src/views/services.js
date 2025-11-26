@@ -9,8 +9,8 @@ const Services = () => {
   return (
     <div className="services-container">
       <Helmet>
-        <title>Services - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Services - Raje Shivchatrapati Institute" />
+        <title>Services - HĀRVÉST</title>
+        <meta property="og:title" content="Services - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="services-main">

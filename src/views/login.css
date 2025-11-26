@@ -55,11 +55,11 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #3498DB;
+  border-color: #db4437;
 }
 
 .login-button {
-  background-color: #3498DB;
+  background-color: #db4437;
   color: white;
   border: none;
   padding: 1rem;
@@ -72,7 +72,7 @@
 }
 
 .login-button:hover {
-  background-color: #2980B9;
+  background-color: #b3362c;
 }
 
 .login-footer {
@@ -82,7 +82,7 @@
 }
 
 .login-footer a {
-  color: #3498DB;
+  color: #db4437;
   text-decoration: none;
   font-weight: 600;
 }

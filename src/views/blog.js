@@ -47,8 +47,8 @@ const Blog = () => {
   return (
     <div className="blog-container">
       <Helmet>
-        <title>Blog - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Blog - Raje Shivchatrapati Institute" />
+        <title>Blog - HĀRVÉST</title>
+        <meta property="og:title" content="Blog - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="blog-main">

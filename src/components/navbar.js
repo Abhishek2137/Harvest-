@@ -76,7 +76,7 @@ Navbar.defaultProps = {
   text1: 'Contact Us',
   link5: 'Contact Us',
   link3: 'Services',
-  logoAlt: 'Raje Shivchatrapati Multipurpose Charitable Institute',
+  logoAlt: 'HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation)',
   action1: '/',
   link4: 'Events',
   rootClassName: '',
@@ -84,7 +84,7 @@ Navbar.defaultProps = {
   link2: 'About Us',
   link1: 'Home',
   action2: '/about',
-  logoSrc: '/rajeshivlogo-1500h.jpg',
+  logoSrc: '/Harvest_logo.jpg',
 }
 
 Navbar.propTypes = {

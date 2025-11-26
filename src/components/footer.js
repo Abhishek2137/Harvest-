@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-newsletter">
             <Link to="/">
               <img
-                alt="Raje Shivchatrapati Multipurpose Charitable Institute Logo"
+                alt="HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation) Logo"
                 src="/rajeshivlogo-1500h.jpg"
                 className="footer-image1"
               />
@@ -95,7 +95,7 @@ const Footer = () => {
           <div className="thq-divider-horizontal"></div>
           <div className="footer-row">
             <span className="thq-body-small">
-              © 2024 Raje Shivchatrapati Multipurpose Charitable Institute, Aurangabad. All Rights Reserved.
+              © 2024 HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation), Aurangabad. All Rights Reserved.
             </span>
             <div className="footer-footer-links3">
               <Link to="/privacy-policy" className="thq-body-small">Privacy Policy</Link>

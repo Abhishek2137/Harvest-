@@ -7,7 +7,7 @@
 }
 
 .donate-hero {
-  background: linear-gradient(135deg, #3498DB, #2980B9);
+  background: linear-gradient(135deg, #db4437, #db4437);
   padding: 4rem 2rem;
   color: white;
   text-align: center;
@@ -81,14 +81,14 @@
 }
 
 .impact-item:hover {
-  border-color: #3498DB;
+  border-color: #db4437;
   transform: translateY(-2px);
 }
 
 .impact-amount {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #3498DB;
+  color: #db4437;
   min-width: 100px;
 }
 
@@ -149,8 +149,8 @@
 
 .amount-button {
   background: white;
-  border: 2px solid #3498DB;
-  color: #3498DB;
+  border: 2px solid #db4437;
+  color: #db4437;
   padding: 1rem;
   border-radius: 10px;
   font-size: 1.1rem;
@@ -161,8 +161,8 @@
 
 .amount-button:hover,
 .amount-button.selected {
-  background: #3498DB;
-  color: white;
+  background: ;
+  color: rgb(255, 0, 0);
 }
 
 .input-group {
@@ -196,7 +196,7 @@
 
 .input-group input:focus {
   outline: none;
-  border-color: #3498DB;
+  border-color: #db4437;
 }
 
 .form-group {
@@ -227,11 +227,11 @@ textarea {
 
 textarea:focus {
   outline: none;
-  border-color: #3498DB;
+  border-color: #db4437;
 }
 
 .donate-button {
-  background: #3498DB;
+  background: #db4437;
   color: white;
   padding: 1rem;
   border: none;
@@ -243,7 +243,7 @@ textarea:focus {
 }
 
 .donate-button:hover {
-  background: #2980B9;
+  background: #db4437;
 }
 
 .secure-payment {

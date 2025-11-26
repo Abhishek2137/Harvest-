@@ -75,7 +75,7 @@
 .volunteer-benefits li:before,
 .volunteer-areas li:before {
   content: "•";
-  color: #3498DB;
+  color: #ff1e00;
   position: absolute;
   left: 0;
 }
@@ -125,7 +125,7 @@
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #3498DB;
+  border-color: #ff1e00;
 }
 
 .form-group textarea {
@@ -134,7 +134,7 @@
 }
 
 .submit-button {
-  background-color: #3498DB;
+  background-color: #ff1e00;
   color: white;
   padding: 1rem;
   border: none;
@@ -147,7 +147,7 @@
 }
 
 .submit-button:hover {
-  background-color: #2980B9;
+  background-color: #e61c00;
 }
 
 @media (max-width: 768px) {

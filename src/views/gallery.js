@@ -11,7 +11,7 @@ const Gallery = () => {
     {
       id: 1,
       title: 'Annual Charity Drive 2024',
-      image: 'https://images.unsplash.com/photo-1573894999291-f440466112cc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGluZGlhbiUyMHNjaG9vbHxlbnwwfHx8fDE3NDI1ODc0MzF8MA&ixlib=rb-4.0.3&w=1500',
+      image: 'https://images.unsplash.com/photo-157389499291-f440466112cc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGluZGlhbiUyMHNjaG9vbHxlbnwwfHx8fDE3NDI1ODc0MzF8MA&ixlib=rb-4.0.3&w=1500',
       category: 'Events'
     },
     {
@@ -51,8 +51,8 @@ const Gallery = () => {
   return (
     <div className="gallery-container">
       <Helmet>
-        <title>Gallery - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Gallery - Raje Shivchatrapati Institute" />
+        <title>Gallery - HĀRVÉST</title>
+        <meta property="og:title" content="Gallery - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="gallery-main">

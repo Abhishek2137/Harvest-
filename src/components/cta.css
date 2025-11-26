@@ -5,10 +5,10 @@
   align-self: stretch;
   transition: 0.3s;
   align-items: center;
-  border-radius: var(--dl-layout-radius-cardradius);
+  border-radius: #FFA07A ;
   justify-content: space-between;
   transform-style: preserve-3d;
-  background-color: var(--dl-color-theme-accent2);
+  background-color: #FFA07A ;
 }
  
 .cta-accent2-bg:hover {
@@ -23,7 +23,7 @@
   border-radius: var(--dl-layout-radius-cardradius);
   justify-content: space-between;
   transform-style: preserve-3d;
-  background-color: var(--dl-color-theme-accent1);
+  background-color: #FFDAB9;
 }
  
 .cta-container2 {
@@ -41,8 +41,8 @@
 }
  
 .cta-container2:hover {
-  color: var(--dl-color-theme-neutral-light);
-  background-color: var(--dl-color-theme-neutral-dark);
+  color: #ffffff;
+  background-color: #FFA07A ;
 }
  
 .cta-content {

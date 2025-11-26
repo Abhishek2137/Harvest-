@@ -190,7 +190,7 @@ Hero.defaultProps = {
   image11Src:
     'https://images.unsplash.com/photo-1431540015161-0bf868a2d407?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjU4NTk0N3w&ixlib=rb-4.0.3&q=80&w=1080',
   image2Src:
-    'https://images.unsplash.com/photo-1507120410856-1f35574c3b45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjU4NTk0NXw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1593113598332-f28c5827f155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5NjQyNjc3Mnw&ixlib=rb-4.0.3&q=80&w=1080',
   image1Src:
     'https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjU4NTk1M3w&ixlib=rb-4.0.3&q=80&w=1080',
   image7Alt: 'Volunteers Making a Difference',
@@ -215,12 +215,12 @@ Hero.defaultProps = {
   image9Alt: 'Supportive Community Environment',
   image12Alt: 'Building a Brighter Future',
   image8Alt: 'Children Smiling and Learning',
-  heading1: 'Welcome to Raje Shivchatrapati Multipurpose Charitable Institute',
+  heading1: 'Welcome to HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation)',
   image10Alt: 'Empowering Women through Skill Development',
   image6Alt: 'Healthcare Services',
   image6Src:
     'https://images.unsplash.com/photo-1504805572947-34fad45aed93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjU4NTk0OXw&ixlib=rb-4.0.3&q=80&w=1080',
-  image1Alt: 'Raje Shivchatrapati Multipurpose Charitable Institute Building',
+  image1Alt: 'HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation) Building',
   action1: 'Learn More',
   image12Src:
     'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjU4NTk0OXw&ixlib=rb-4.0.3&q=80&w=1080',

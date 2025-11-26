@@ -40,6 +40,7 @@ const Hero8 = (props) => {
                   )}
                 </span>
               </button>
+              <link to ="/donate">
               <button className="thq-button-outline hero8-button2">
                 <span className="thq-body-small">
                   {props.action2 ?? (
@@ -49,6 +50,7 @@ const Hero8 = (props) => {
                   )}
                 </span>
               </button>
+              </link>
             </div>
           </div>
         </div>

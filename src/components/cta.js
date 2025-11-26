@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -16,9 +17,11 @@ const CTA = (props) => {
                 <p className="thq-body-large">{props.content1}</p>
               </div>
               <div className="cta-actions">
-                <button type="button" className="thq-button-filled cta-button">
-                  {props.action1}
-                </button>
+                <Link to="/donate">
+                  <button type="button" className="thq-button-filled cta-button">
+                   {props.action1}
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

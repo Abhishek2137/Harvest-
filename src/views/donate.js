@@ -44,8 +44,8 @@ const Donate = () => {
   return (
     <div className="donate-container">
       <Helmet>
-        <title>Donate - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Donate - Raje Shivchatrapati Institute" />
+        <title>Donate - HĀRVÉST</title>
+        <meta property="og:title" content="Donate - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="donate-hero">

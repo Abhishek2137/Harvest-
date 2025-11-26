@@ -48,7 +48,7 @@
 
 .info-item i {
   margin-right: 1rem;
-  color: #3498DB;
+  color:#ff1e00;
 }
 
 .social-links {
@@ -58,16 +58,16 @@
 }
 
 .social-link {
-  color: #3498DB;
+  color: #ff1e00;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border: 1px solid #3498DB;
+  border: 1px solid #ff1e00;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
 .social-link:hover {
-  background: #3498DB;
+  background: #ff1e00;
   color: white;
 }
 
@@ -102,11 +102,11 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #3498DB;
+  border-color: #ff1e00;
 }
 
 .submit-button {
-  background-color: #3498DB;
+  background-color: #ff1e00;
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -118,7 +118,7 @@
 }
 
 .submit-button:hover {
-  background-color: #2980B9;
+  background-color: #e61c00;
 }
 
 @media screen and (max-width: 768px) {

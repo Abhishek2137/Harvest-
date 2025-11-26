@@ -88,7 +88,7 @@ Features1.defaultProps = {
   feature2Title: 'Experienced Professionals',
   feature3ImgAlt: 'Image showcasing workshop activities',
   feature2ImgSrc:
-    'https://images.unsplash.com/uploads/14122810486321888a497/1b0cc699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjU4NTk0N3w&ixlib=rb-4.0.3&q=80&w=1080',
+    'image1.png',
   feature3ImgSrc:
     'https://images.unsplash.com/photo-1524901548305-08eeddc35080?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc0MjU4NTk0NHw&ixlib=rb-4.0.3&q=80&w=1080',
   feature1Description:

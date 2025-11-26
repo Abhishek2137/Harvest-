@@ -10,8 +10,8 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <Helmet>
-        <title>Contact Us - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Contact Us - Raje Shivchatrapati Institute" />
+        <title>Contact Us - HĀRVÉST</title>
+        <meta property="og:title" content="Contact Us - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="contact-main">

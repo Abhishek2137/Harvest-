@@ -14,8 +14,8 @@ const About = () => {
   return (
     <div className="about-container">
       <Helmet>
-        <title>About - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="About - Raje Shivchatrapati Institute" />
+        <title>About - HĀRVÉST</title>
+        <meta property="og:title" content="About - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="about-main">

@@ -17,11 +17,12 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Raje Shivchatrapati Multipurpose Charitable Institute</title>
+        <title>HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation)</title>
       </Helmet>
       <Navbar rootClassName="navbarroot-class-name" link2="About Us"></Navbar>
       <Hero
-        image1Src="https://images.unsplash.com/photo-1573894999291-f440466112cc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGluZGlhbiUyMHNjaG9vbHxlbnwwfHx8fDE3NDI1ODc0MzF8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+        // image1Src="https://images.unsplash.com/photo-1573894999291-f440466112cc?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fGluZGlhbiUyMHNjaG9vbHxlbnwwfHx8fDE3NDI1ODc0MzF8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+        image1Src="/images/image1.png"
         image2Src="https://images.unsplash.com/flagged/photo-1574098335395-18cf525e45d6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEwfHxpbmRpYW4lMjBzY2hvb2x8ZW58MHx8fHwxNzQyNTg3NDMxfDA&amp;ixlib=rb-4.0.3&amp;w=1500"
         image7Src="https://images.unsplash.com/photo-1629872928185-171e13c8e58b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDR8fGluZGlhbiUyMHNjaG9vbHxlbnwwfHx8fDE3NDI1ODc0MzF8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
         image8Src="https://images.unsplash.com/photo-1510531704581-5b2870972060?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIwfHxpbmRpYW4lMjBzY2hvb2x8ZW58MHx8fHwxNzQyNTg3NDMxfDA&amp;ixlib=rb-4.0.3&amp;w=1500"

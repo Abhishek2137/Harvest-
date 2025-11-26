@@ -11,8 +11,8 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'What is Raje Shivchatrapati Institute?',
-      answer: 'Raje Shivchatrapati Institute is a charitable organization dedicated to providing education, healthcare, and community development services to underprivileged communities in Maharashtra.'
+      question: 'What is HĀRVÉST?',
+      answer: 'HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation) is a charitable organization dedicated to providing education, healthcare, and community development services to underprivileged communities in Maharashtra.'
     },
     {
       question: 'How can I donate to the institute?',
@@ -32,7 +32,7 @@ const FAQ = () => {
     },
     {
       question: 'Are donations tax-deductible?',
-      answer: 'Yes, all donations to Raje Shivchatrapati Institute are tax-deductible under Section 80G of the Income Tax Act.'
+      answer: 'Yes, all donations to HĀRVÉST (Holistic Advancement for Rural Vitality, Empowerment, and Sustainable Transformation) are tax-deductible under Section 80G of the Income Tax Act.'
     },
     {
       question: 'How can I stay updated about institute activities?',
@@ -51,8 +51,8 @@ const FAQ = () => {
   return (
     <div className="faq-container">
       <Helmet>
-        <title>FAQs - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="FAQs - Raje Shivchatrapati Institute" />
+        <title>FAQs - HĀRVÉST</title>
+        <meta property="og:title" content="FAQs - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="faq-main">

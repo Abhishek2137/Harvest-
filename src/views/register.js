@@ -35,8 +35,8 @@ const Register = () => {
   return (
     <div className="register-container">
       <Helmet>
-        <title>Register - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Register - Raje Shivchatrapati Institute" />
+        <title>Register - HĀRVÉST</title>
+        <meta property="og:title" content="Register - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="register-split-screen">

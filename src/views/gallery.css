@@ -31,10 +31,10 @@
 
 .category-button {
   padding: 0.5rem 1.5rem;
-  border: 2px solid #3498DB;
+  border: 2px solid #db4437;
   border-radius: 25px;
   background-color: transparent;
-  color: #3498DB;
+  color: #db4437;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -42,7 +42,7 @@
 
 .category-button:hover,
 .category-button.active {
-  background-color: #3498DB;
+  background-color: #db4437;
   color: white;
 }
 
@@ -105,7 +105,7 @@
 .gallery-category {
   display: inline-block;
   padding: 0.25rem 0.75rem;
-  background-color: #3498DB;
+  background-color: #db4437;
   border-radius: 15px;
   font-size: 0.9rem;
   color: white;

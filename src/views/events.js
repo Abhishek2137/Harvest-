@@ -37,8 +37,8 @@ const Events = () => {
   return (
     <div className="events-container">
       <Helmet>
-        <title>Events - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Events - Raje Shivchatrapati Institute" />
+        <title>Events - HĀRVÉST</title>
+        <meta property="og:title" content="Events - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="events-main">

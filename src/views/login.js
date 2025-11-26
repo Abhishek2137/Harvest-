@@ -28,8 +28,8 @@ const Login = () => {
   return (
     <div className="login-container">
       <Helmet>
-        <title>Login - Raje Shivchatrapati Institute</title>
-        <meta property="og:title" content="Login - Raje Shivchatrapati Institute" />
+        <title>Login - HĀRVÉST</title>
+        <meta property="og:title" content="Login - HĀRVÉST" />
       </Helmet>
       <Navbar />
       <div className="login-split-screen">

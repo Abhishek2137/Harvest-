@@ -38,7 +38,7 @@
 
 .faq-search-input:focus {
   outline: none;
-  border-color: #3498DB;
+  border-color: #db4437;
 }
 
 .faq-list {
@@ -77,7 +77,7 @@
 
 .faq-icon {
   font-size: 1.5rem;
-  color: #3498DB;
+  color: #db4437;
   transition: transform 0.3s ease;
 }
 
@@ -124,7 +124,7 @@
 .contact-button {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #3498DB;
+  background-color: #;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -133,13 +133,13 @@
 }
 
 .contact-button:hover {
-  background-color: #2980B9;
+  background-color: #b3362c;
 }
 
 @media (max-width: 768px) {
   .faq-main {
     padding: 1rem;
-  }
+  }db4437
   .faq-title {
     font-size: 2rem;
   }

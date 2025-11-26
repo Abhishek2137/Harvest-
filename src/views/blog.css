@@ -31,10 +31,10 @@
 
 .category-button {
   padding: 0.5rem 1.5rem;
-  border: 2px solid #3498DB;
+  border: 2px solid #db4437;
   border-radius: 25px;
   background-color: transparent;
-  color: #3498DB;
+  color: #db4437;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -42,7 +42,7 @@
 
 .category-button:hover,
 .category-button.active {
-  background-color: #3498DB;
+  background-color: #db4437;
   color: white;
 }
 
@@ -84,7 +84,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background-color: #3498DB;
+  background-color: #db4437;
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 15px;
@@ -116,14 +116,14 @@
 
 .read-more {
   display: inline-block;
-  color: #3498DB;
+  color: #db4437;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .read-more:hover {
-  color: #2980B9;
+  color: #b3362c;
 }
 
 .blog-pagination {
@@ -145,8 +145,8 @@
 }
 
 .pagination-button:hover {
-  background: #3498DB;
-  border-color: #3498DB;
+  background: #db4437;
+  border-color: #db4437;
   color: white;
 }
 
@@ -171,8 +171,8 @@
 
 .pagination-number:hover,
 .pagination-number.active {
-  background: #3498DB;
-  border-color: #3498DB;
+  background: #db4437;
+  border-color: #db4437;
   color: white;
 }
 

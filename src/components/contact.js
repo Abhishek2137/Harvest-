@@ -72,7 +72,7 @@ Contact.defaultProps = {
   address1: '123 Main Street, Aurangabad, India',
   content5:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in ero.',
-  email1: 'info@rajeshivchatrapatiinstitute.com',
+  email1: 'info@harvest.org',
   content1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
   heading1: 'Contact Us',
   content4:
