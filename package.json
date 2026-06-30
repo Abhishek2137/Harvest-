@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
     "dangerous-html": "0.1.13",
     "next": "^16.0.4",
     "prop-types": "15.7.2",
@@ -34,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "^0.0.0"
+    "react-scripts": "^5.0.1"
   }
 }

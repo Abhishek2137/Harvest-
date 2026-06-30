@@ -72,23 +72,33 @@ WSGI_APPLICATION = 'harvest_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# Neodb Database Configuration (PostgreSQL-based)
-# Neodb uses Neon PostgreSQL, which requires SSL
-db_options = {}
-if os.getenv('NEON_HOST') or os.getenv('DB_HOST', '').endswith('.neon.tech'):
-    db_options['sslmode'] = 'require'
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('NEON_DATABASE', os.getenv('DB_NAME', 'harvest_db')),
-        'USER': os.getenv('NEON_USER', os.getenv('DB_USER', 'postgres')),
-        'PASSWORD': os.getenv('NEON_PASSWORD', os.getenv('DB_PASSWORD', '')),
-        'HOST': os.getenv('NEON_HOST', os.getenv('DB_HOST', 'localhost')),
-        'PORT': os.getenv('NEON_PORT', os.getenv('DB_PORT', '5432')),
-        'OPTIONS': db_options,
+# Use SQLite locally by default so the backend runs without external database setup.
+# Set USE_SQLITE=False to force PostgreSQL/Neon configuration.
+if os.getenv('USE_SQLITE', 'True').lower() == 'true' and not os.getenv('NEON_HOST') and not os.getenv('DB_HOST'):
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
     }
-}
+else:
+    # Neodb Database Configuration (PostgreSQL-based)
+    # Neodb uses Neon PostgreSQL, which requires SSL
+    db_options = {}
+    if os.getenv('NEON_HOST') or os.getenv('DB_HOST', '').endswith('.neon.tech'):
+        db_options['sslmode'] = 'require'
+
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': os.getenv('NEON_DATABASE', os.getenv('DB_NAME', 'harvest_db')),
+            'USER': os.getenv('NEON_USER', os.getenv('DB_USER', 'postgres')),
+            'PASSWORD': os.getenv('NEON_PASSWORD', os.getenv('DB_PASSWORD', '')),
+            'HOST': os.getenv('NEON_HOST', os.getenv('DB_HOST', 'localhost')),
+            'PORT': os.getenv('NEON_PORT', os.getenv('DB_PORT', '5432')),
+            'OPTIONS': db_options,
+        }
+    }
 
 
 # Password validation
