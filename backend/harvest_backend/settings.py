@@ -6,6 +6,17 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
+# Work around Django 4.2 template Context.copy() incompatibility with Python 3.14.
+# See: BaseContext.__copy__ calling copy(super()) which fails on Python 3.14.
+from django.template.context import BaseContext
+
+def _django_basecontext_copy(self):
+    duplicate = self.__class__.__new__(self.__class__)
+    duplicate.dicts = self.dicts[:]
+    return duplicate
+
+BaseContext.__copy__ = _django_basecontext_copy
+
 load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
